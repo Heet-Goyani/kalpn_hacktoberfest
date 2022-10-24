@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me | Kalpan Bariya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Titillium+Web:wght@300&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro&family=Titillium+Web:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li> <a href="/home.html">Home</a></li>
+                <li> <a href="/about.html">About Me</a></li>
+                <li> <a href="/services.html">Services</a></li>
+                <li> <a href="/project.html">Project</a></li>
+                <li> <a href="/contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="contactform">
+                <h1 class="cheading">Contact me for work/general enquiries</h1>
+                <form class="form">
+                    <div class="fname">
+                        <label for="clintname" class="formlabel">Name:</label>
+                        <input type="text" id="clintname" name="name" class="formcontrol" required>
+                    </div>
+                    <div class="fgender">
+                        <span>gender :</span> <input type="radio" name="mygender" class="formcontrol">male <input
+                            type="radio" name="mygender" class="formcontrol">female
+                            <input type="radio" name="mygender" class="formcontrol">other
+                    </div>
+                    <div class="femail">
+                        <label for="clintemail" class="formlabel">Email address:</label>
+                        <input type="email" name="email" id="clintemail" class="formcontrol">
+                    </div>
+                    <div class="fphone">
+                        <label for="clintphone" class="formlabel">Phone Number:</label>
+                        <input type="number" name="phone" id="clintphone" class="formcontrol" required>
+                    </div>
+                    <span class="help">We will never share your Email ID and phone number with anyone else</span>
+                    <div class="fprofession">
+                        <label for="clintprofession" class="formlabel">Are you a student!?</label>
+                        <input type="checkbox" name="profession" id="clintprofession" class="formcontrol">
+                    </div>
+                    <div class="clintinfo">
+                        <textarea id="" cols="50" rows="10"
+                            placeholder="Write something about you and your enquiries here...." required></textarea>
+                    </div>
+
+                    <div class="button">
+                        <button type="submit" class="btn">Submit</button>
+                        <button type="reset" class="btn">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
